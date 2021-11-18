@@ -1,4 +1,3 @@
-
 /*
 
 Characteristic:
@@ -27,7 +26,6 @@ If we do this, code duplicity will happen. Suppose person01 and person02 both ha
 have to implement the same method that means we have to write the same code for the two classes.
 
 */
-  
 interface KickBehavior
 {
     public void kick();
@@ -141,8 +139,7 @@ class Person02 extends Fighter
 }
 
   
-
-public class Strategy {
+public class StrategyExample02 {
 
     public static void main(String[] args) {
         JumpBehavior shortJump = new ShortJump();
@@ -162,4 +159,5 @@ public class Strategy {
         Person01.jump();
         Person01.kick();
     }
+    
 }

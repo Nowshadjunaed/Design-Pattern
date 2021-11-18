@@ -1,4 +1,3 @@
-
 /*
 
 Characteristic:
@@ -13,6 +12,7 @@ In the below code, Add and Multiply classes are our strategy. These class will b
 So I have separeted them.On the other hand, Calculator class will not be changed.Suppose now we need a feature of substraction.
 We can simply add a class for this feature and it will implement the Operation interface.And for that we don't have to make
 modification in Calculator class.We can easily take the advantage of any feature/strategy using Calculator class.
+
 
 */
 interface Operation{
@@ -51,8 +51,7 @@ class Calculator{
     }
 }
 
-
-public class Strategy {
+public class StrategyExample01 {
 
     public static void main(String[] args) {
         Calculator cal = new Calculator();
@@ -61,4 +60,5 @@ public class Strategy {
         cal.SetOperation(new Multiply());
         System.out.println(cal.performOperation(10, 20));
     }
+    
 }
