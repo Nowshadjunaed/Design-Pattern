@@ -10,7 +10,7 @@ Suppose there is a coffee shop from where one can buy darkroast coffee,houseblen
 additional condiment to the coffee.For example he/she can add Sweetnuts, Chocolate and for every additional condiment
 he/she has to make extra payment.
 
-In this case Decorator pattern is used.Using these can pattern, We will able to decorate the coffee with sweetnuts, chocolate etc.
+In this case Decorator pattern is used.Using these pattern, We will able to decorate the coffee with sweetnuts, chocolate etc.
 To know the solution see the code below.
 
 Assume that we want to add Red eye coffee. For that we can just add a RedEye class and we dont't have to make any changes to any other
