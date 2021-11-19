@@ -1,11 +1,5 @@
 /*
 
-The decorator pattern attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to
-subclassing for extending functionality.
-
-The decorator pattern can be used to make it possible to extend (decorate) the functionality of a certain object at runtime.
-It is like wrapping a gift, putting it in a box, and wrapping the box.
-
 Suppose we are building an application for a pizza store.Assume they offer four types of pizzas namely Peppy Paneer, Farmhouse,
 Margherita and Chicken Fiesta.Each pizza has different cost.Customer can also ask for several toppings such as Fresh Tomato, Paneer,
 Jalapeno, Capsicum, Barbeque etc.For each toppings, customer has to pay extra.

@@ -1,14 +1,5 @@
 /*
 
-It is like the problem of inserting a new three-prong electrical plug in an old two-prong
-wall outlet – some kind of adapter or intermediary is necessary.
-
-Characteristic:
-    1. Convert the interface of a class into another interface clients expect. 
-       Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
-    2. Wrap an existing class with a new interface.
-    3. Impedance match an old component to a new system.
-
 Suppose a bike company faced huge loss. So they sold their company to a car company.
 The car company don't want to change the code base of bike company as the code is clean and bug free.
 So they decided to make an adapter to convert the bike class to car class such that they can use bike class property and

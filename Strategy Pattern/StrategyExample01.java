@@ -1,10 +1,5 @@
 /*
 
-Characteristic:
-    1. We will separate code that changes from code that remains same.
-    2. We will wrap the code with interface/abstraction that we will change
-
-
 context : code that will remain unchanged
 behaviour/strategy : code that will change
 

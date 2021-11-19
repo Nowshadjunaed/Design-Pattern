@@ -1,8 +1,5 @@
 /*
 
-The Observer Pattern defines a one to many dependency between objects so that one object changes state, 
-all of its dependents are notified and updated automatically.
-
 To understand observer pattern, first you need to understand the subject and observer objects.The relation between subject and observer
 can easily be understood as an analogy to magazine subscription.
 

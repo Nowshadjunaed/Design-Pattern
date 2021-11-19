@@ -1,9 +1,5 @@
 /*
 
-Prototype pattern allows us to hide the complexity of making new instances from the client. The concept is to copy an existing object
-or make clone of an existing object rather than creating a new instance from scratch.This approach saves costly resources and time,
-especially when object creation is a heavy process.
-
 Instead of using prototype pattern, we make clone of an existing object in a naive approach.For that we have to assign the value of every 
 attributes of current object to the cloned object attribute but this is time consuming and there is another problem.If current object
 has private attribute, we can't access them from outside of that class.So assigning this private attribute values to the cloned object

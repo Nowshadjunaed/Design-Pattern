@@ -1,12 +1,8 @@
 /*
 
-Singleton pattern is a design pattern which restricts a class to instantiate its multiple objects. It is nothing but a way of defining 
+Singleton pattern is nothing but a way of defining 
 a class. Class is defined in such a way that only one instance of the class is created in the complete execution of a program 
 or project. It is used where only a single instance of a class is required to control the action throughout the execution.
-
-Characteristics:
-    1. It should have only one instance
-    2. Instance should be globally accessible
     
 Suppose there is a chocolate factory and in this factory there is only one chocolateboiler.So you have to write code such a way that
 no more than one instace of ChocolateBoiler is created.

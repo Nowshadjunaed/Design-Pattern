@@ -1,10 +1,5 @@
 /*
 
-The Model View Controller(MVC) design pattern specifies that an application consist of a data model, view information, 
-and control information. The pattern requires that each of these be separated into different objects.
-MVC is more of an architectural pattern, but not for complete application. MVC mostly relates to the UI / interaction 
-layer of an application.
-
 Here the Model contains only the pure application data, it contains no logic describing how to present the data to a user.The database
 part is managed there.
 The View presents the model’s data to the user. The view knows how to access the model’s data, but it does not know what this data

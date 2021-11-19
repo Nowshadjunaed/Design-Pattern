@@ -1,9 +1,5 @@
 /*
 
-Facade pattern presents a simplified interface to client.
-It Provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the 
-subsystem easier to use.
-
 Think of your algorithm lab class.Before starting the lab all light,fan,projector,pc should be turned on.And after end of the class all
 should be turned off.Now you want a simple interface which done all the things for you.More specifically, you don't have to use light,
 fan,projector and pc class object and their method to do this work.You just need a simple interface which will do all of the work

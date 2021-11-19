@@ -1,8 +1,5 @@
 /*
 
-Template method design pattern is to define an algorithm as a skeleton of operations and leave the details to be implemented by 
-the child classes. The overall structure and sequence of the algorithm are preserved by the parent class. 
-
 In Template pattern:
     1. AbstractClass contains the templateMethod() which should be made final so that it cannot be overridden. This template method
        makes use of other operations available in order to run the algorithm but is decoupled for the actual implementation of these 

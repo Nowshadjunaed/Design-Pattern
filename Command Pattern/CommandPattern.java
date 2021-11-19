@@ -1,8 +1,5 @@
 /*
 
-The command pattern encapsulates a request as an object, thereby letting us parameterize other objects with different requests,
-queue or log requests, and support undoable operations.
-
 Facade pattern violates open closed principle.Command pattern is modified version of Facade pattern.
 
 Think of your algorithm lab class. Suppose there exists automation system.There is a programmable remote which can be used to turn on 
