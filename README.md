@@ -38,4 +38,7 @@ Design pattern is based on the [SOLID principles](https://github.com/Nowshadjuna
 * The Model View Controller(MVC) design pattern specifies that an application consist of a data model, view information, and control information
 * The pattern requires that each of these be separated into different objects
 * MVC is more of an architectural pattern, but not for complete application. MVC mostly relates to the UI / interaction layer of an application
+# Iterator Pattern
+* This pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+* Here the iterator interface provides a set of methods for traversing or modifying the collection that is in addition to next()/hasNext() it can also provide functions for search, remove etc.
 
